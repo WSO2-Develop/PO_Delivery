@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="transportUNEDI"
+       transports="vfs"
+       startOnLoad="true"
+       trace="disable">
+   <description/>
+   <target>
+      <inSequence>
+         <property name="messageType"
+                   value="text/plain"
+                   scope="axis2"
+                   type="STRING"/>
+         <property name="OUT_ONLY" value="true" scope="default" type="STRING"/>
+         <property name="TRANSPORT_HEADERS" scope="axis2" action="remove"/>
+         <log level="full"/>
+         <class name="replaceMediator.replaceMediator"/>
+         <drop/>
+      </inSequence>
+      <outSequence/>
+      <faultSequence/>
+   </target>
+   <parameter name="transport.vfs.ActionAfterProcess">MOVE</parameter>
+   <parameter name="transport.PollInterval">5</parameter>
+   <parameter name="transport.vfs.MoveAfterProcess">file:///opt/wso2/transporteEDI/backup/unedi</parameter>
+   <parameter name="transport.vfs.FileURI">file:///opt/wso2/transporteEDI/input</parameter>
+   <parameter name="transport.vfs.MoveAfterFailure">file:///opt/wso2/transporteEDI/failed/unedi</parameter>
+   <parameter name="transport.vfs.FileNamePattern">.*.(e|E)(d|D)(i|I)</parameter>
+   <parameter name="transport.vfs.ContentType">text/plain; charset="UTF-8"</parameter>
+   <parameter name="transport.vfs.ActionAfterFailure">MOVE</parameter>
+   <parameter name="serviceType">Transform</parameter>
+   <parameter name="transport.vfs.MoveTimestampFormat">yyyyMMdd-HHmmss_</parameter>
+</proxy>

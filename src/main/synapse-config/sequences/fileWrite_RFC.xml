@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="fileWrite_RFC">
+   <log level="full"/>
+   <log level="full"/>
+   <property xmlns:ns="http://org.apache.synapse/xsd"
+             name="transport.vfs.ReplyFileName"
+             expression="fn:concat(fn:substring-after(get-property('MessageID'), 'urn:uuid:'), '.xml')"
+             scope="transport"
+             type="STRING"/>
+   <property name="OUT_ONLY" value="true" scope="default" type="STRING"/>
+   <header name="Action" scope="default" action="remove"/>
+   <property name="SOAPAction" scope="transport" action="remove"/>
+   <send>
+      <endpoint key="endpointSAP"/>
+   </send>
+</sequence>

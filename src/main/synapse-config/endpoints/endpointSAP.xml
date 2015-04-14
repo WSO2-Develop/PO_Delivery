@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint xmlns="http://ws.apache.org/ns/synapse" name="endpointSAP">
+   <address uri="vfs:file:///opt/wso2/transporteEDI/input/sap" format="pox"/>
+</endpoint>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="fileWrite_XML">
+    <log level="full"/>
+    <property name="transport.vfs.ReplyFileName" expression="fn:concat(fn:substring-after(get-property('MessageID'), 'urn:uuid:'), '.xml')" scope="transport" type="STRING" description="ReplyFileName"/>
+    <property name="OUT_ONLY" value="true" scope="default" type="STRING" description="OUT_ONLY"/>
+    <header name="Action" scope="default" action="remove" description="Header Remove"/>
+    <property name="SOAPAction" scope="transport" action="remove" description="SOAP Remove"/>
+    <send>
+        <endpoint key="endpointXML"/>
+    </send>
+</sequence>

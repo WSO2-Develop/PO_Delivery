@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="transportSAP"
+       transports="vfs"
+       startOnLoad="true"
+       trace="disable">
+   <description/>
+   <target>
+      <inSequence>
+         <log level="custom">
+            <property name="INICIO        "
+                      value="   ----------    INICIO TRANSPORTE    ----------"/>
+         </log>
+         <log level="custom">
+            <property name="RECEPCION     "
+                      value="   ---------- Recepcion  archivos RFC ----------"/>
+         </log>
+         <log level="custom">
+            <property name="TRANSPORTE    "
+                      value="   ------------ Transporte BAPI/RFC ------------"/>
+         </log>
+         <log/>
+         <sequence key="fileSend_RFC"/>
+      </inSequence>
+      <outSequence>
+         <log level="custom">
+            <property name="RESPUESTA     "
+                      value="   ----------     Respuesta de SAP    ----------"/>
+         </log>
+         <log level="full"/>
+         <log level="custom">
+            <property name="FINALIZACION  "
+                      value="   ----------   FINALIZACION EXITOSA  ----------"/>
+         </log>
+      </outSequence>
+      <faultSequence>
+         <log level="custom">
+            <property name="RESPUESTA     "
+                      value="   ----------   Error de Transporte   ----------"/>
+         </log>
+         <log level="full"/>
+         <log level="custom">
+            <property name="FINALIZACION  "
+                      value="   ----------   FINALIZACION ERRONEA  ----------"/>
+         </log>
+      </faultSequence>
+   </target>
+   <parameter name="transport.PollInterval">5</parameter>
+   <parameter name="transport.vfs.ActionAfterProcess">MOVE</parameter>
+   <parameter name="transport.vfs.MoveAfterProcess">file:///opt/wso2/transporteEDI/backup/sap</parameter>
+   <parameter name="transport.vfs.FileURI">file:///opt/wso2/transporteEDI/input/sap</parameter>
+   <parameter name="transport.vfs.MoveAfterFailure">file:///opt/wso2/transporteEDI/failed/sap/</parameter>
+   <parameter name="transport.vfs.FileNamePattern">.*.(x|X)(m|M)(l|L)</parameter>
+   <parameter name="transport.vfs.ContentType">application/xml</parameter>
+   <parameter name="transport.vfs.ActionAfterFailure">MOVE</parameter>
+   <parameter name="serviceType">Transport</parameter>
+   <parameter name="transport.vfs.MoveTimestampFormat">yyyyMMdd-HHmmss_</parameter>
+</proxy>

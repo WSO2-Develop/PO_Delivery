@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_J0qhoOIkEeSnqNr7gGsYKA" type="Esb" name="localentry_xsltUNEDI.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_J7b4AOIkEeSnqNr7gGsYKA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_J7b4BeIkEeSnqNr7gGsYKA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_J_J6YOIkEeSnqNr7gGsYKA" type="3663">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_J_J6YeIkEeSnqNr7gGsYKA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_J_J6YuIkEeSnqNr7gGsYKA" fontName="Cantarell"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_J_J6Y-IkEeSnqNr7gGsYKA"/>
+        <element xmi:type="esb:LocalEntry" href="localentry_xsltUNEDI.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J_J6ZOIkEeSnqNr7gGsYKA" width="75" height="75"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_J7b4AeIkEeSnqNr7gGsYKA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_J7b4AuIkEeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_J7b4A-IkEeSnqNr7gGsYKA"/>
+    <element xmi:type="esb:EsbServer" href="localentry_xsltUNEDI.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J7b4BOIkEeSnqNr7gGsYKA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_J0qhoeIkEeSnqNr7gGsYKA"/>
+  <element xmi:type="esb:EsbDiagram" href="localentry_xsltUNEDI.esb#/"/>
+</notation:Diagram>

@@ -1,1 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><artifacts/>
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="transportUNEDI" groupId="Global.Integrator.PO_Delivery.proxy-service" version="1.0.2" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/transportUNEDI.xml</file>
+    </artifact>
+    <artifact name="transportEDI" groupId="Global.Integrator.PO_Delivery.proxy-service" version="1.0.2" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/transportEDI.xml</file>
+    </artifact>
+    <artifact name="transportXML" groupId="Global.Integrator.PO_Delivery.proxy-service" version="1.0.2" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/transportXML.xml</file>
+    </artifact>
+    <artifact name="transportSAP" groupId="Global.Integrator.PO_Delivery.proxy-service" version="1.0.2" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/transportSAP.xml</file>
+    </artifact>
+    <artifact name="endpointSAP" groupId="Global.Integrator.PO_Delivery.endpoint" version="1.0.2" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/endpointSAP.xml</file>
+    </artifact>
+    <artifact name="smooksEDI96" version="1.0.2" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/smooksEDI96.xml</file>
+    </artifact>
+    <artifact name="endpointRFC" groupId="Global.Integrator.PO_Delivery.endpoint" version="1.0.2" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/endpointRFC.xml</file>
+    </artifact>
+    <artifact name="endpointSAP" groupId="Global.Integrator.PO_Delivery.endpoint" version="1.0.2" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/endpointSAP.xml</file>
+    </artifact>
+    <artifact name="endpointXML" groupId="Global.Integrator.PO_Delivery.endpoint" version="1.0.2" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/endpointXML.xml</file>
+    </artifact>
+    <artifact name="smooksEDI96" version="1.0.2" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/smooksEDI96.xml</file>
+    </artifact>
+    <artifact name="xsltRFC" version="1.0.2" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/xsltRFC.xml</file>
+    </artifact>
+    <artifact name="xsltUNEDI" version="1.0.2" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/xsltUNEDI.xml</file>
+    </artifact>
+    <artifact name="transportEDI" groupId="Global.Integrator.PO_Delivery.proxy-service" version="1.0.2" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/transportEDI.xml</file>
+    </artifact>
+    <artifact name="transportSAP" groupId="Global.Integrator.PO_Delivery.proxy-service" version="1.0.2" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/transportSAP.xml</file>
+    </artifact>
+    <artifact name="transportUNEDI" groupId="Global.Integrator.PO_Delivery.proxy-service" version="1.0.2" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/transportUNEDI.xml</file>
+    </artifact>
+    <artifact name="transportXML" groupId="Global.Integrator.PO_Delivery.proxy-service" version="1.0.2" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/transportXML.xml</file>
+    </artifact>
+    <artifact name="fileSend_RFC" groupId="Global.Integrator.PO_Delivery.sequence" version="1.0.2" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/fileSend_RFC.xml</file>
+    </artifact>
+    <artifact name="fileWrite_RFC" groupId="Global.Integrator.PO_Delivery.sequence" version="1.0.2" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/fileWrite_RFC.xml</file>
+    </artifact>
+    <artifact name="fileWrite_XML" groupId="Global.Integrator.PO_Delivery.sequence" version="1.0.2" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/fileWrite_XML.xml</file>
+    </artifact>
+    <artifact name="directRFC" groupId="Global.Integrator.PO_Delivery.proxy-service" version="1.0.2" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/directRFC.xml</file>
+    </artifact>
+</artifacts>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="directRFC"
+       transports="https http"
+       startOnLoad="true"
+       trace="disable">
+   <description/>
+   <target>
+      <inSequence>
+         <log level="custom">
+            <property name="INICIO        "
+                      value="   ----------    INICIO TRANSPORTE    ----------"/>
+         </log>
+         <log level="custom">
+            <property name="RECEPCION     "
+                      value="   ---------- Recepción  archvio  SAP----------"/>
+         </log>
+         <log level="full"/>
+         <log level="custom">
+            <property name="TRANSPORTE    "
+                      value="   ---------- Transporte de  BAPI/RFC ----------"/>
+         </log>
+         <log level="full"/>
+         <send>
+            <endpoint name="saprfcendpoint">
+               <address uri="bapi:/sapqa"/>
+            </endpoint>
+         </send>
+      </inSequence>
+      <outSequence>
+         <log level="custom">
+            <property name="RESPUESTA     "
+                      value="   ----------     Respuesta de SAP    ----------"/>
+         </log>
+         <log level="full"/>
+         <log level="custom">
+            <property name="FINALIZACION  "
+                      value="   ----------       FINALIZACION      ----------"/>
+         </log>
+      </outSequence>
+      <faultSequence>
+         <log level="custom">
+            <property name="RESPUESTA     "
+                      value="   ----------     Error de Transporte    ----------"/>
+         </log>
+         <log level="full"/>
+         <log level="custom">
+            <property name="FINALIZACION  "
+                      value="   ----------       FINALIZACION      ----------"/>
+         </log>
+      </faultSequence>
+   </target>
+   <parameter name="serviceType">Transport</parameter>
+</proxy>

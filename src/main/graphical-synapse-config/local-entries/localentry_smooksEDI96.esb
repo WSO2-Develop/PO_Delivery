@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esb:EsbDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb">
+  <server type="LOCAL_ENTRY">
+    <children xsi:type="esb:LocalEntry" entryName="smooksEDI96" localEntryType="In-lined XML Entry" valueXML="&lt;smooks-resource-list xmlns=&quot;http://www.milyn.org/xsd/smooks-1.1.xsd&quot; xmlns:unedifact=&quot;http://www.milyn.org/xsd/smooks/unedifact-1.5.xsd&quot;>&#xA;      &lt;unedifact:reader mappingModel=&quot;//opt//wso2//wso2esb-4.8.1//repository//components//lib//org.milyn.edi.unedifact.d96a-mapping_1.6.jar&quot;/>&#xA;   &lt;/smooks-resource-list>"/>
+  </server>
+</esb:EsbDiagram>

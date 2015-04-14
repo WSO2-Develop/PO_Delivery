@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_95RGoOIjEeSnqNr7gGsYKA" type="Esb" name="endpoint_endpointXML.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_-AAAwOIjEeSnqNr7gGsYKA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-AAAxeIjEeSnqNr7gGsYKA" type="7001"/>
+    <children xmi:type="notation:Shape" xmi:id="_-HOqIOIjEeSnqNr7gGsYKA" type="3642" fontName="Cantarell">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-HOqIuIjEeSnqNr7gGsYKA" type="7041">
+        <children xmi:type="notation:Node" xmi:id="_-HUJsOIjEeSnqNr7gGsYKA" type="3646">
+          <children xmi:type="notation:DecorationNode" xmi:id="_-HUJteIjEeSnqNr7gGsYKA" type="5161"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_-HUJseIjEeSnqNr7gGsYKA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-HUJsuIjEeSnqNr7gGsYKA" fontName="Cantarell"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_-HUJs-IjEeSnqNr7gGsYKA"/>
+          <element xmi:type="esb:AddressEndPoint" href="endpoint_endpointXML.esb#//@server/@children.0/@child"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-HUJtOIjEeSnqNr7gGsYKA" width="75" height="75"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-HOqI-IjEeSnqNr7gGsYKA" showTitle="true"/>
+      </children>
+      <element xmi:type="esb:EndpointDiagram" href="endpoint_endpointXML.esb#//@server/@children.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-HOqIeIjEeSnqNr7gGsYKA" width="107" height="103"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_-AAAweIjEeSnqNr7gGsYKA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-AAAwuIjEeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_-AAAw-IjEeSnqNr7gGsYKA"/>
+    <element xmi:type="esb:EsbServer" href="endpoint_endpointXML.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-AAAxOIjEeSnqNr7gGsYKA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_95RGoeIjEeSnqNr7gGsYKA"/>
+  <element xmi:type="esb:EsbDiagram" href="endpoint_endpointXML.esb#/"/>
+</notation:Diagram>

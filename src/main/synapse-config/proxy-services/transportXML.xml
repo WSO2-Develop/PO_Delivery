@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse"
+       name="transportXML"
+       transports="vfs"
+       startOnLoad="true"
+       trace="disable">
+   <description/>
+   <target>
+      <inSequence>
+         <header xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                 name="soapenv:Envelope"
+                 scope="default"
+                 action="remove"/>
+         <log level="custom">
+            <property name="INICIO        "
+                      value="   ----------    INICIO TRANSPORTE    ----------"/>
+         </log>
+         <log level="custom">
+            <property name="RECEPCION     "
+                      value="   ---------- Recepcion  archvio  XML ----------"/>
+         </log>
+         <log level="custom">
+            <property name="TRANSFORMACION"
+                      value="   ---------- Transformando XML a RFC ----------"/>
+         </log>
+         <xslt key="xsltRFC"/>
+         <log level="custom">
+            <property name="TRANSPORTE    "
+                      value="   -------- Parselando archivo BAPI/RFC --------"/>
+         </log>
+         <log/>
+         <iterate id="rfc" expression="//root/bapirfc" sequential="true">
+            <target>
+               <sequence>
+                  <log level="full" category="DEBUG"/>
+                  <property xmlns:ns="http://org.apache.synapse/xsd"
+                            name="transport.vfs.ReplyFileName"
+                            expression="fn:concat(fn:substring-after(get-property('MessageID'), 'urn:uuid:'), '.xml')"
+                            scope="transport"
+                            type="STRING"/>
+                  <property name="OUT_ONLY" value="true" scope="default" type="STRING"/>
+                  <send>
+                     <endpoint key="endpointSAP"/>
+                  </send>
+                  <log level="custom">
+                    <property name="ENVIO  "
+                              value="   ---------- ENVIO A PROCESO RFC ----------"/>
+                 </log>
+               </sequence>
+            </target>
+         </iterate>
+         <log level="custom">
+            <property name="FINALIZACION  "
+                      value="   ---------- TRANSFORMACION  EXITOSA ----------"/>
+         </log>
+      </inSequence>
+      <outSequence>
+         <log level="custom">
+            <property name="RESPUESTA     "
+                      value="   ----------     Respuesta de SAP    ----------"/>
+         </log>
+         <log level="full"/>
+         <log level="custom">
+            <property name="FINALIZACION  "
+                      value="   ----------   FINALIZACION EXITOSA  ----------"/>
+         </log>
+      </outSequence>
+      <faultSequence>
+         <log level="custom">
+            <property name="RESPUESTA     "
+                      value="   ----------   Error de Transporte   ----------"/>
+         </log>
+         <log level="full"/>
+         <log level="custom">
+            <property name="FINALIZACION  "
+                      value="   ----------   FINALIZACION ERRONEA  ----------"/>
+         </log>
+      </faultSequence>
+   </target>
+   <parameter name="transport.PollInterval">5</parameter>
+   <parameter name="transport.vfs.ActionAfterProcess">MOVE</parameter>
+   <parameter name="transport.vfs.FileURI">file:///opt/wso2/transporteEDI/input/xml</parameter>
+   <parameter name="transport.vfs.MoveAfterProcess">file:///opt/wso2/transporteEDI/backup/xml</parameter>
+   <parameter name="transport.vfs.MoveAfterFailure">file:///opt/wso2/transporteEDI/failed/xml</parameter>
+   <parameter name="transport.vfs.FileNamePattern">.*.(x|X)(m|M)(l|L)</parameter>
+   <parameter name="transport.vfs.ContentType">application/xml</parameter>
+   <parameter name="transport.vfs.ActionAfterFailure">MOVE</parameter>
+   <parameter name="serviceType">Transform</parameter>
+   <parameter name="transport.vfs.MoveTimestampFormat">yyyyMMdd-HHmmss_</parameter>
+</proxy>

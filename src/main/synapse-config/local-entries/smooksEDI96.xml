@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry xmlns="http://ws.apache.org/ns/synapse" key="smooksEDI96">
+   <smooks-resource-list xmlns="http://www.milyn.org/xsd/smooks-1.1.xsd"
+                         xmlns:unedifact="http://www.milyn.org/xsd/smooks/unedifact-1.5.xsd">
+      <unedifact:reader mappingModel="//opt//wso2//wso2esb-4.8.1//repository//components//lib//org.milyn.edi.unedifact.d96a-mapping_1.6.jar"/>
+   </smooks-resource-list>
+   <description/>
+</localEntry>

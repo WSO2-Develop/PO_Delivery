@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_qVV8kOI6EeSnqNr7gGsYKA" type="Esb" name="sequence_fileWrite_XML.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_qfbFoOI6EeSnqNr7gGsYKA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qfbFpeI6EeSnqNr7gGsYKA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_qm9RAOI6EeSnqNr7gGsYKA" type="3614">
+        <children xmi:type="notation:Node" xmi:id="_qm-fIOI6EeSnqNr7gGsYKA" type="3615">
+          <children xmi:type="notation:DecorationNode" xmi:id="_qm-fJeI6EeSnqNr7gGsYKA" type="7035">
+            <children xmi:type="notation:Node" xmi:id="_qnFM0OI6EeSnqNr7gGsYKA" type="3495">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qnFM1eI6EeSnqNr7gGsYKA" type="5168"/>
+              <children xmi:type="notation:Node" xmi:id="_qnGa8OI6EeSnqNr7gGsYKA" type="3018">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnGa8eI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qnGa8uI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qnGa8-I6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:LogMediatorInputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.0/@inputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnGa9OI6EeSnqNr7gGsYKA" x="-6" y="-5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qnHCAOI6EeSnqNr7gGsYKA" type="3019">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnHCAeI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qnHCAuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qnHCA-I6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:LogMediatorOutputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.0/@outputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnHCBOI6EeSnqNr7gGsYKA" x="-11" y="-9"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnFM0eI6EeSnqNr7gGsYKA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_qnFM0uI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_qnFM0-I6EeSnqNr7gGsYKA"/>
+              <element xmi:type="esb:LogMediator" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnFM1OI6EeSnqNr7gGsYKA" x="26" y="109" width="77" height="75"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qnPk4OI6EeSnqNr7gGsYKA" type="3492">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qnPk5eI6EeSnqNr7gGsYKA" type="5167"/>
+              <children xmi:type="notation:Node" xmi:id="_qnQzAOI6EeSnqNr7gGsYKA" type="3033">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnRaEOI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qnRaEeI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qnRaEuI6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:PropertyMediatorInputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.1/@inputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnRaE-I6EeSnqNr7gGsYKA" x="-6" y="-5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qnRaFOI6EeSnqNr7gGsYKA" type="3034">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnRaFeI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qnRaFuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qnRaF-I6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:PropertyMediatorOutputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.1/@outputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnRaGOI6EeSnqNr7gGsYKA" x="-11" y="-9"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnPk4eI6EeSnqNr7gGsYKA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_qnPk4uI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_qnPk4-I6EeSnqNr7gGsYKA"/>
+              <element xmi:type="esb:PropertyMediator" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.1"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnPk5OI6EeSnqNr7gGsYKA" x="142" y="109" width="80" height="75"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qnZ88OI6EeSnqNr7gGsYKA" type="3492">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qnZ89eI6EeSnqNr7gGsYKA" type="5167"/>
+              <children xmi:type="notation:Node" xmi:id="_qnbyIOI6EeSnqNr7gGsYKA" type="3033">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnbyIeI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qnbyIuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qnbyI-I6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:PropertyMediatorInputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.2/@inputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnbyJOI6EeSnqNr7gGsYKA" x="-6" y="-5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qnbyJeI6EeSnqNr7gGsYKA" type="3034">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnbyJuI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qnbyJ-I6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qnbyKOI6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:PropertyMediatorOutputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.2/@outputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnbyKeI6EeSnqNr7gGsYKA" x="-11" y="-9"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnZ88eI6EeSnqNr7gGsYKA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_qnZ88uI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_qnZ88-I6EeSnqNr7gGsYKA"/>
+              <element xmi:type="esb:PropertyMediator" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.2"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnZ89OI6EeSnqNr7gGsYKA" x="262" y="109" width="77" height="75"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qnkVAOI6EeSnqNr7gGsYKA" type="3516">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qnkVBeI6EeSnqNr7gGsYKA" type="5183"/>
+              <children xmi:type="notation:Node" xmi:id="_qnljIOI6EeSnqNr7gGsYKA" type="3100">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnljIeI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qnljIuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qnljI-I6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:HeaderMediatorInputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.3/@inputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnljJOI6EeSnqNr7gGsYKA" x="-6" y="-5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qnmKMOI6EeSnqNr7gGsYKA" type="3101">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnmKMeI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qnmKMuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qnmKM-I6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:HeaderMediatorOutputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.3/@outputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnmKNOI6EeSnqNr7gGsYKA" x="-11" y="-9"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnkVAeI6EeSnqNr7gGsYKA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_qnkVAuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_qnkVA-I6EeSnqNr7gGsYKA"/>
+              <element xmi:type="esb:HeaderMediator" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.3"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnkVBOI6EeSnqNr7gGsYKA" x="379" y="109" width="77" height="75"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qns34OI6EeSnqNr7gGsYKA" type="3492">
+              <children xmi:type="notation:DecorationNode" xmi:id="_qnte9OI6EeSnqNr7gGsYKA" type="5167"/>
+              <children xmi:type="notation:Node" xmi:id="_qnutEOI6EeSnqNr7gGsYKA" type="3033">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnutEeI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qnutEuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qnutE-I6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:PropertyMediatorInputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.4/@inputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnutFOI6EeSnqNr7gGsYKA" x="-6" y="-5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qnutFeI6EeSnqNr7gGsYKA" type="3034">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnutFuI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qnutF-I6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qnutGOI6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:PropertyMediatorOutputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.4/@outputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnutGeI6EeSnqNr7gGsYKA" x="-11" y="-9"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_qnte8OI6EeSnqNr7gGsYKA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_qnte8eI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_qnte8uI6EeSnqNr7gGsYKA"/>
+              <element xmi:type="esb:PropertyMediator" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.4"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qnte8-I6EeSnqNr7gGsYKA" x="496" y="109" width="77" height="75"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qn3P8OI6EeSnqNr7gGsYKA" type="3515">
+              <children xmi:type="notation:Node" xmi:id="_qn5FIOI6EeSnqNr7gGsYKA" type="3085">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qn5FIeI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qn5FIuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qn5FI-I6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:SendMediatorInputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.5/@InputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qn5FJOI6EeSnqNr7gGsYKA" x="-6" y="-5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qn5FJeI6EeSnqNr7gGsYKA" type="3086">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qn5FJuI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qn5FJ-I6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qn5FKOI6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:SendMediatorOutputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.5/@OutputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qn5FKeI6EeSnqNr7gGsYKA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qn5FKuI6EeSnqNr7gGsYKA" type="3539">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qn5FK-I6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qn5FLOI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qn5FLeI6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:SendMediatorEndpointOutputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.5/@endpointOutputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qn5FLuI6EeSnqNr7gGsYKA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qn5sMOI6EeSnqNr7gGsYKA" type="3728">
+                <children xmi:type="notation:DecorationNode" xmi:id="_qn5sNeI6EeSnqNr7gGsYKA" type="7046">
+                  <children xmi:type="notation:Node" xmi:id="_qn_y0OI6EeSnqNr7gGsYKA" type="3660">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_qn_y1eI6EeSnqNr7gGsYKA" type="5165"/>
+                    <children xmi:type="notation:Node" xmi:id="_qoBoAOI6EeSnqNr7gGsYKA" type="3661">
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qoBoAeI6EeSnqNr7gGsYKA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_qoBoAuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_qoBoA-I6EeSnqNr7gGsYKA"/>
+                      <element xmi:type="esb:NamedEndpointInputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.5/@mediatorFlow/@children.0/@inputConnector"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qoBoBOI6EeSnqNr7gGsYKA"/>
+                    </children>
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_qn_y0eI6EeSnqNr7gGsYKA"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_qn_y0uI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_qn_y0-I6EeSnqNr7gGsYKA"/>
+                    <element xmi:type="esb:NamedEndpoint" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.5/@mediatorFlow/@children.0"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qn_y1OI6EeSnqNr7gGsYKA" x="96" y="64"/>
+                  </children>
+                  <styles xmi:type="notation:TitleStyle" xmi:id="_qn5sNuI6EeSnqNr7gGsYKA" showTitle="true"/>
+                </children>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_qn5sMeI6EeSnqNr7gGsYKA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_qn5sMuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_qn5sM-I6EeSnqNr7gGsYKA"/>
+                <element xmi:type="esb:MediatorFlow" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.5/@mediatorFlow"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qn5sNOI6EeSnqNr7gGsYKA"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_qn3P8eI6EeSnqNr7gGsYKA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_qn3P8uI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_qn3P8-I6EeSnqNr7gGsYKA"/>
+              <element xmi:type="esb:SendMediator" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.5"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qn3P9OI6EeSnqNr7gGsYKA" x="613" y="109" width="170" height="100"/>
+            </children>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_qm-fJuI6EeSnqNr7gGsYKA" showTitle="true"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_qm-fIeI6EeSnqNr7gGsYKA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qm-fIuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_qm-fI-I6EeSnqNr7gGsYKA"/>
+          <element xmi:type="esb:MediatorFlow" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qm-fJOI6EeSnqNr7gGsYKA"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qm_GMOI6EeSnqNr7gGsYKA" type="3616">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_qm_GMeI6EeSnqNr7gGsYKA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qm_GMuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_qm_GM-I6EeSnqNr7gGsYKA"/>
+          <element xmi:type="esb:SequencesInputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@inputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qm_GNOI6EeSnqNr7gGsYKA" x="-11" y="-9"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qm_GNeI6EeSnqNr7gGsYKA" type="3617">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_qm_GNuI6EeSnqNr7gGsYKA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qm_GN-I6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_qm_GOOI6EeSnqNr7gGsYKA"/>
+          <element xmi:type="esb:SequencesOutputConnector" href="sequence_fileWrite_XML.esb#//@server/@children.0/@outputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qm_GOeI6EeSnqNr7gGsYKA" x="-11" y="-9"/>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_qm9RAeI6EeSnqNr7gGsYKA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_qm9RAuI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_qm9RA-I6EeSnqNr7gGsYKA"/>
+        <element xmi:type="esb:Sequences" href="sequence_fileWrite_XML.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qm9RBOI6EeSnqNr7gGsYKA" width="195" height="125"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_qfbFoeI6EeSnqNr7gGsYKA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qfbFouI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_qfbFo-I6EeSnqNr7gGsYKA"/>
+    <element xmi:type="esb:EsbServer" href="sequence_fileWrite_XML.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qfbFpOI6EeSnqNr7gGsYKA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_qVV8keI6EeSnqNr7gGsYKA"/>
+  <element xmi:type="esb:EsbDiagram" href="sequence_fileWrite_XML.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_qoNOMOI6EeSnqNr7gGsYKA" type="4001" source="_qm_GNeI6EeSnqNr7gGsYKA" target="_qnGa8OI6EeSnqNr7gGsYKA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qoNOMeI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <element xmi:type="esb:EsbLink" href="sequence_fileWrite_XML.esb#//@server/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qoNOMuI6EeSnqNr7gGsYKA" points="[6, 9, 0, -17]$[0, 21, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qoQ4kOI6EeSnqNr7gGsYKA" type="4001" source="_qnHCAOI6EeSnqNr7gGsYKA" target="_qnQzAOI6EeSnqNr7gGsYKA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qoQ4keI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <element xmi:type="esb:EsbLink" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qoQ4kuI6EeSnqNr7gGsYKA" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qoT74OI6EeSnqNr7gGsYKA" type="4001" source="_qnRaFOI6EeSnqNr7gGsYKA" target="_qnbyIOI6EeSnqNr7gGsYKA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qoT74eI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <element xmi:type="esb:EsbLink" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qoT74uI6EeSnqNr7gGsYKA" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qoXmQOI6EeSnqNr7gGsYKA" type="4001" source="_qnbyJeI6EeSnqNr7gGsYKA" target="_qnljIOI6EeSnqNr7gGsYKA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qoXmQeI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <element xmi:type="esb:EsbLink" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qoXmQuI6EeSnqNr7gGsYKA" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qoapkOI6EeSnqNr7gGsYKA" type="4001" source="_qnmKMOI6EeSnqNr7gGsYKA" target="_qnutEOI6EeSnqNr7gGsYKA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qoapkeI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <element xmi:type="esb:EsbLink" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.3/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qoapkuI6EeSnqNr7gGsYKA" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qoeT8OI6EeSnqNr7gGsYKA" type="4001" source="_qnutFeI6EeSnqNr7gGsYKA" target="_qn5FIOI6EeSnqNr7gGsYKA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qoeT8eI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <element xmi:type="esb:EsbLink" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.4/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qoeT8uI6EeSnqNr7gGsYKA" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qoilYOI6EeSnqNr7gGsYKA" type="4001" source="_qn5FJeI6EeSnqNr7gGsYKA" target="_qm_GMOI6EeSnqNr7gGsYKA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qoilYeI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <element xmi:type="esb:EsbLink" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.5/@OutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qoilYuI6EeSnqNr7gGsYKA" points="[-1, -9, 0, 17]$[0, -17, 1, 9]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qpVPkOI6EeSnqNr7gGsYKA" type="4001" source="_qn5FKuI6EeSnqNr7gGsYKA" target="_qoBoAOI6EeSnqNr7gGsYKA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qpVPkeI6EeSnqNr7gGsYKA" fontName="Cantarell"/>
+    <element xmi:type="esb:EsbLink" href="sequence_fileWrite_XML.esb#//@server/@children.0/@mediatorFlow/@children.5/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qpVPkuI6EeSnqNr7gGsYKA" points="[11, 7, -113, -73]$[118, 76, -6, -4]"/>
+  </edges>
+</notation:Diagram>

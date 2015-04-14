@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry xmlns="http://ws.apache.org/ns/synapse" key="xsltRFC" src="file:///opt/wso2/wso2esb-4.8.1/repository/deployment/server/synapse-configs/default/xslt/xsltRFC.xslt"/>
